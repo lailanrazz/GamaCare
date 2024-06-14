@@ -1,6 +1,5 @@
 # GamaCare: Sistem Informasi Fasilitas Kesehatan Mental UGM
-![POSTER GAMACARE](https://github.com/lailanrazz/GamaCare/assets/112270824/c5100b25-2a3d-4a9a-b108-4e72e1b77ed9)
-
+![Poster GamaCare ](https://github.com/lailanrazz/GamaCare/assets/112270824/d71d92d5-69c7-42ab-a849-e26dc78c045d)
 
 ## Deskripsi Proyek
 GamaCare adalah platform inovatif yang bertujuan memfasilitasi akses informasi mengenai layanan kesehatan mental di Universitas Gadjah Mada (UGM). Dengan memanfaatkan data dari berbagai sumber internal dan eksternal, GamaCare menyediakan akses mudah dan interaktif ke informasi seputar fasilitas kesehatan mental di kampus UGM. Menggunakan teknologi Web GIS, platform ini menyajikan data secara visual untuk mendukung manajemen dan akses layanan kesehatan mental secara efisien. GamaCare menyajikan peta interaktif yang memungkinkan pengguna menjelajahi lokasi dan informasi terkait layanan kesehatan mental di UGM.
