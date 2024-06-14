@@ -1,71 +1,41 @@
-<<<<<<< HEAD
-# GamaCare
-WebGIS Sistem Informasi Layanan Kesehatan Mental UGM
-=======
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# GamaCare: Sistem Informasi Fasilitas Kesehatan Mental UGM
+![POSTER GAMACARE](https://github.com/lailanrazz/GamaCare/assets/112270824/c5100b25-2a3d-4a9a-b108-4e72e1b77ed9)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+## Deskripsi Proyek
+GamaCare adalah platform inovatif yang bertujuan memfasilitasi akses informasi mengenai layanan kesehatan mental di Universitas Gadjah Mada (UGM). Dengan memanfaatkan data dari berbagai sumber internal dan eksternal, GamaCare menyediakan akses mudah dan interaktif ke informasi seputar fasilitas kesehatan mental di kampus UGM. Menggunakan teknologi Web GIS, platform ini menyajikan data secara visual untuk mendukung manajemen dan akses layanan kesehatan mental secara efisien. GamaCare menyajikan peta interaktif yang memungkinkan pengguna menjelajahi lokasi dan informasi terkait layanan kesehatan mental di UGM.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Komponen Pembangun Produk
+- **HTML (Hypertext Markup Language)**: Digunakan untuk menyusun struktur dasar halaman webGIS GamaCare.
+- **CSS (Cascading Style Sheets)**: Digunakan untuk mengatur tata letak dan tampilan halaman webGIS GamaCare.
+- **Bootstrap**: Framework CSS yang digunakan untuk membangun tampilan menjadi responsif dan lebih menarik.
+- **PHP (Hypertext Preprocessor)**: Bahasa pemrograman server-side yang digunakan untuk pengembangan aplikasi web secara dinamis.
+- **Laravel**: Framework PHP yang digunakan untuk mengembangkan backend yang kuat.
+- **GeoServer**: Digunakan sebagai server penyedia layanan data geospasial.
+- **Leaflet**: Menggunakan teknologi web GIS untuk menyajikan data geografis secara interaktif, seperti peta interaktif.
+- **JavaScript**: Digunakan untuk memberikan interaktivitas pada halaman web.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Sumber Data
+- **Database Internal UGM**: Data Deskripsi Lokasi Layanan Kesehatan Mental UGM
+- **Survey dan GoogleMaps**: Data yang dikumpulkan dari survei dan GoogleMaps mengenai lokasi layanan yang akurat .
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Tangkapan Layar Komponen Penting
+### Antarmuka Web 
+![image](https://github.com/lailanrazz/GamaCare/assets/112270824/5544e1d4-06f6-456f-98df-e92077762aad)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Antarmuka Web Admin 
+![image](https://github.com/lailanrazz/GamaCare/assets/112270824/ef9bc156-f92c-40d7-9b4a-8ac360cd42a3)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Dashboard Admin
+![image](https://github.com/lailanrazz/GamaCare/assets/112270824/6503f25e-3c81-4c05-a847-55245cf2a2e4)
 
-## Laravel Sponsors
+### Form Input Data
+![image](https://github.com/lailanrazz/GamaCare/assets/112270824/e04d2e61-407b-44ad-b012-21e56204f6bb)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Data Titik Lokasi
+![image](https://github.com/lailanrazz/GamaCare/assets/112270824/de268c08-229b-4b81-9b08-6c00c44176c8)
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
->>>>>>> b5ff66a (GamaCare Project)
+GamaCare diharapkan dapat menjadi alat yang efektif dalam mendukung kesehatan mental komunitas UGM, dengan memberikan akses yang mudah dan cepat ke informasi yang mereka butuhkan.
