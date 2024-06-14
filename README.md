@@ -28,7 +28,8 @@ GamaCare adalah platform inovatif yang bertujuan memfasilitasi akses informasi m
 
 
 ### Dashboard Admin
-![image](https://github.com/lailanrazz/GamaCare/assets/112270824/6503f25e-3c81-4c05-a847-55245cf2a2e4)
+![image](https://github.com/lailanrazz/GamaCare/assets/112270824/c67a4585-7b7c-42bb-aff1-1d252dbfb743)
+
 
 ### Form Input Data
 ![image](https://github.com/lailanrazz/GamaCare/assets/112270824/e04d2e61-407b-44ad-b012-21e56204f6bb)
